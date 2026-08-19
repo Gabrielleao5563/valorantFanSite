@@ -60,3 +60,38 @@ function defineLanguage(language){
     }
 
 }
+
+// Inserts one language item for every JSON file in the languages directory.
+async function languageFilesFetch(){
+
+    var languageWindow = document.getElementById("navLanguageWindow");
+    var currentLanguage = localStorage.getItem("language");
+
+    try {
+        var response = await fetch("/files/languages/json/");
+        var directoryHtml = await response.text();
+        var links = new DOMParser()
+            .parseFromString(directoryHtml, "text/html")
+            .querySelectorAll("a");
+
+        Array.from(links).forEach(function(link){
+            var fileName = link.getAttribute("href");
+
+            if (!fileName || !/\.json$/i.test(fileName)) return;
+
+            var language = decodeURIComponent(fileName.split("/").pop().replace(/\.json$/i, ""));
+            var languageItem = document.createElement("p");
+
+            languageItem.textContent = language;
+            languageItem.className = "navInnerButton" +
+                (language === currentLanguage ? " selectedItem" : "");
+            languageItem.setAttribute("onclick", "defineLanguage(" +
+                JSON.stringify(languageItem.textContent) + ");");
+
+            languageWindow.appendChild(languageItem);
+        });
+    } catch (error) {
+        console.error("Unable to load language files:", error);
+    }
+
+}

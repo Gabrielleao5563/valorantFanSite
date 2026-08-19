@@ -1,0 +1,47 @@
+.navMainButtonsDiv {
+    padding: 1.5%;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navMainButton {
+    margin-left: 2%;
+    color: var(--white);
+    font-family: var(--font-primary);
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    padding: 0.5%;
+}
+.navMainButton:hover {
+    background-color: var(--gray);
+}
+
+.navInfoWindow, .navSocialsWindow, .navLanguageWindow {
+    background-color: var(--dark-gray);
+    width: 100%;
+    max-width: 250px;
+    padding: 0.5%;
+    border: solid 1px var(--secondary-red);
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navInnerButton {
+    color: var(--white);
+    font-weight: bold;
+    font-family: var(--font-primary);
+    width: 90%;
+    padding: 4%;
+    margin: 1%;
+    text-align: left;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.navInnerButton:hover {
+    background-color: var(--gray);
+}
