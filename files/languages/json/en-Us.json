@@ -1,0 +1,66 @@
+{
+    "nav": {
+
+        "mainButtons": {
+
+            "gameInfo": "Game info",
+            "news": "News",
+            "socials": "Socials",
+            "officialSite": "Official Site",
+            "about": "About"
+
+        },
+
+        "innerButtons": {
+
+            "agents": "Agents",
+            "maps": "Maps",
+            "arsenal": "Arsenal",
+            "facebook": "Facebook",
+            "youtube": "Youtube",
+            "instagram": "Instagram"
+
+        }
+
+    },
+
+    "footer": {
+
+        "creditsSection": {
+
+            "credits": "Developed with love by Gabriel Leão"
+
+        },
+
+        "disclaimerSection": {
+
+            "disclaimer": "This is not the official Valorant website.",
+            "officialSiteButton": "Acess the Official website"
+
+        }
+
+    },
+
+    "home": {
+
+        "newsSection": {
+
+            "title": "Last news",
+            "openButton": "Go to the news page"
+
+        }
+
+    },
+
+    "agents": {
+
+    },
+
+    "arsenal": {
+
+    },
+
+    "maps": {
+
+    }
+}

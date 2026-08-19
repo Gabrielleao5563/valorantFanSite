@@ -1,0 +1,32 @@
+:root {
+    /* Valorant Color Pallete */
+    --primary-red: #ff4655;
+    --secondary-red: #ef3d47;
+    --black: #0f1419;
+    --dark-gray: #1a1e26;
+    --gray: #414d59;
+    --light-gray: #8a92a0;
+    --white: #fafbfc;
+    --gold: #f4d03f;
+    --accent-blue: #005de9;
+    --accent-green: #0dba61;
+
+    /* Text fonts */
+    --font-primary: 'Valorant Font', 'Arial', sans-serif;
+    --font-secondary: 'Segoe UI', 'Tahoma', sans-serif;
+    --font-mono: 'Courier New', monospace;
+
+    /* Font Sizes */
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 32px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid cyan;
+}
