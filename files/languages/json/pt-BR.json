@@ -1,0 +1,99 @@
+{
+    "nav": {
+
+        "mainButtons": {
+
+            "menu": "Menu",
+            "gameInfo": "Informações do jogo",
+            "news": "Notícias",
+            "socials": "Redes sociais",
+            "officialSite": "Site oficial",
+            "about": "Sobre",
+            "language": "Idioma"
+
+        },
+
+        "innerButtons": {
+
+            "agents": "Agentes",
+            "maps": "Mapas",
+            "arsenal": "Arsenal",
+            "facebook": "Facebook",
+            "youtube": "YouTube",
+            "instagram": "Instagram"
+
+        }
+
+    },
+    
+    "footer": {
+
+        "creditsSection": {
+
+            "credits": "Desenvolvido com amor por Gabriel Leão"
+
+        },
+
+        "disclaimerSection": {
+
+            "disclaimer": "Este não é o site oficial do Valorant.",
+            "officialSiteButton": "Acesse o site oficial"
+
+        }
+
+    },
+
+    "home": {
+
+        "presentation": {
+
+            "title": "VALORANT",
+            "phrase": "VALORANT - JOGO DE TIRO TÁTICO 5X5 ESTRELANDO AGENTES COM HABILIDADES ÚNICAS",
+            "button": "SITE OFICIAL"
+
+        },
+
+        "news": {
+
+            "title": "ÚLTIMAS NOTÍCIAS",
+            "openButton": "IR PARA A PÁGINA DE NOTÍCIAS"
+
+        },
+
+        "seasons": {
+
+            "title": "TEMPORADA {season}: ATO ${act} - DISPONÍVEL AGORA",
+            "phrase": "Encontre sua força com skins, domine o Passe de Batalha e testemunhe a glória global nos Playoffs do VCT.",
+            "button": "ASSISTA NO YOUTUBE"
+
+        },
+
+        "wearevalorant": {
+
+            "title": "NÓS SOMOS VALORANT",
+            "subtitle": "DESAFIE OS LIMITES",
+            "phrase": "Combine seu estilo e sua experiência em um cenário global e competitivo. Você terá 13 rodadas para atacar e defender com tiros precisos e habilidades táticas. Com apenas uma vida por rodada, você precisa pensar mais rápido que seu oponente para sobreviver. Enfrente seus inimigos nos modos Competitivo e Sem Classificação, além de Disparada e Mata-Mata.",
+            "button": "CONHEÇA O JOGO"
+
+        },
+
+        "agents": {
+
+            "title": "SEUS AGENTES",
+            "subtitle": "A CRIATIVIDADE É SUA MELHOR ARMA",
+            "phrase": "Mais do que armas e munição, VALORANT inclui agentes com habilidades adaptativas, rápidas e letais, que criam oportunidades para você exibir sua mecânica de tiro. Cada Agente é único, assim como os momentos de destaque de cada partida!",
+            "button": "AGENTES"
+
+        },
+
+        "maps": {
+
+            "title": "SEUS MAPAS",
+            "subtitle": "BATALHE AO REDOR DO MUNDO",
+            "phrase": "Cada mapa serve como um palco para mostrar sua criatividade. Os mapas são feitos sob medida para estratégias de equipe, jogadas espetaculares e momentos eletrizantes. Faça as jogadas que todo mundo vai tentar imitar no futuro!",
+            "button": "MAPAS"
+
+        }
+
+    }
+}

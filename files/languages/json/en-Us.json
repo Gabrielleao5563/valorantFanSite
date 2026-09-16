@@ -1,12 +1,14 @@
 {
+
     "nav": {
 
         "mainButtons": {
 
+            "menu": "Menu",
             "gameInfo": "Game info",
             "news": "News",
             "socials": "Socials",
-            "officialSite": "Official Site",
+            "officialSite": "Official website",
             "about": "About",
             "language": "Language"
 
@@ -18,7 +20,7 @@
             "maps": "Maps",
             "arsenal": "Arsenal",
             "facebook": "Facebook",
-            "youtube": "Youtube",
+            "youtube": "YouTube",
             "instagram": "Instagram"
 
         }
@@ -29,39 +31,17 @@
 
         "creditsSection": {
 
-            "credits": "Developed with love by Gabriel Leão"
+            "credits": "Made with love by Gabriel Leão"
 
         },
 
         "disclaimerSection": {
 
-            "disclaimer": "This is not the official Valorant website.",
-            "officialSiteButton": "Acess the Official website"
+            "disclaimer": "This is not the official Valorant Website",
+            "officialSiteButton": "Acess the official website"
 
         }
-
-    },
-
-    "home": {
-
-        "newsSection": {
-
-            "title": "Last news",
-            "openButton": "Go to the news page"
-
-        }
-
-    },
-
-    "agents": {
-
-    },
-
-    "arsenal": {
-
-    },
-
-    "maps": {
 
     }
+
 }

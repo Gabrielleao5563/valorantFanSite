@@ -65,6 +65,7 @@ function defineLanguage(language){
 async function languageFilesFetch(){
 
     var languageWindow = document.getElementById("navLanguageWindow");
+    var mobileLanguageWindow = document.getElementById("navMobileLanguageWindow");
     var currentLanguage = localStorage.getItem("language");
 
     try {
@@ -89,6 +90,13 @@ async function languageFilesFetch(){
                 JSON.stringify(languageItem.textContent) + ");");
 
             languageWindow.appendChild(languageItem);
+
+            if (mobileLanguageWindow) {
+                var mobileLanguageItem = languageItem.cloneNode(true);
+                mobileLanguageItem.className = "navMobileInnerButton" +
+                    (language === currentLanguage ? " selectedItem" : "");
+                mobileLanguageWindow.appendChild(mobileLanguageItem);
+            }
         });
     } catch (error) {
         console.error("Unable to load language files:", error);
